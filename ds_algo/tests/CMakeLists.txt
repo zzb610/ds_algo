@@ -5,7 +5,7 @@ unset(TEST_LIST)
 
 list (APPEND TEST_LIST "test_insertion_sort")
 list (APPEND TEST_LIST "test_a_plus_b")
-
+list (APPEND TEST_LIST "test_hash_list")
 
 foreach (test IN LISTS TEST_LIST)
   set(BINARY ${test})
